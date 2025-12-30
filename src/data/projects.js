@@ -54,7 +54,7 @@ export const projects = [
       "Demonstrates logic, condition handling, and string manipulation",
       "Responsive layout for mobile and desktop",
     ],
-    live: "https://your-poem-generator.netlify.app",
+    live: "https://mycreationshub.org/",
     github: "https://github.com/Chichiprecious1/South-African-poem-generator",
     problem:
       "Many creative tools are overcomplicated and distract from the content itself.",
