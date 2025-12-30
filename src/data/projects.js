@@ -11,8 +11,8 @@ export const projects = [
       "Responsive design for mobile and desktop",
       "Improved UX with loading and error handling",
     ],
-    live: "PASTE_LIVE_LINK_HERE",
-    github: "PASTE_GITHUB_LINK_HERE",
+    live: "https://your-weather-app.netlify.app",
+    github: "https://github.com/Chichiprecious1/weather-react-app",
     problem:
       "Users need quick, accurate weather info in a simple interface without clutter.",
     solution:
@@ -29,8 +29,8 @@ export const projects = [
       "Clean typography and spacing for readability",
       "Responsive UI and structured results layout",
     ],
-    live: "PASTE_LIVE_LINK_HERE",
-    github: "PASTE_GITHUB_LINK_HERE",
+    live: "https://your-dictionary.netlify.app",
+    github: "https://github.com/Chichiprecious1/dictionary-react",
     problem:
       "People want fast definitions and examples without navigating multiple pages.",
     solution:
@@ -48,29 +48,31 @@ export const projects = [
       "Demonstrates logic, condition handling, and string manipulation",
       "Responsive layout for mobile and desktop",
     ],
-    live: "PASTE_LIVE_LINK_HERE",
-    github: "PASTE_GITHUB_LINK_HERE",
+    live: "https://your-poem-generator.netlify.app",
+    github: "https://github.com/Chichiprecious1/poem-generator",
     problem:
       "Many creative tools are overcomplicated and distract from the content itself.",
     solution:
       "Built a simple, elegant poem generator that focuses on creativity, logic, and user experience.",
   },
   {
-    slug: "yogurt-landing-page",
-    title: "Yogurt Landing Page",
-    subtitle: "Responsive marketing landing page with clean layout",
-    image: "/images/yogurt.png",
+    slug: "travel-landing-page",
+    title: "Travel Landing Page",
+    subtitle:
+      "Responsive travel website highlighting destinations and experiences",
+    image: "/images/maldives.png",
     tech: ["HTML", "CSS", "Responsive Design"],
     features: [
-      "Modern layout and spacing",
-      "Responsive structure for different screen sizes",
-      "Clean content hierarchy and typography",
+      "Hero section with strong visual hierarchy",
+      "Clean, modern layout focused on travel inspiration",
+      "Responsive design optimized for all screen sizes",
+      "Clear call-to-action to guide user interaction",
     ],
-    live: "PASTE_LIVE_LINK_HERE",
+    live: "https://my-travel-project-maldives.netlify.app",
     github: "PASTE_GITHUB_LINK_HERE",
     problem:
-      "A product page needs to be clean, readable, and attractive on any device.",
+      "Travel websites need to quickly capture attention while remaining clean and easy to navigate.",
     solution:
-      "Designed a responsive landing page with a clear layout and modern structure.",
+      "Designed a responsive travel landing page that combines strong visuals, clear layout structure, and modern UI principles.",
   },
 ];
