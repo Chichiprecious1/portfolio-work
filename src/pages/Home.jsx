@@ -44,17 +44,28 @@ export default function Home() {
         {/* Featured list */}
         <div className="feature-grid">
           <div className="feature-card">
+            <img
+              src="/images/weather.png"
+              alt="Weather App preview"
+              className="feature-img"
+            />
             <h3>Weather App</h3>
             <p className="text-muted">
               API-powered weather search with a clean layout and responsive
               design.
             </p>
-            <Link to="/work" className="text-link">
+            <Link to="/work/weather-app" className="text-link">
               See project details →
             </Link>
           </div>
 
           <div className="feature-card">
+            <img
+              src="/images/dictionary.png"
+              alt="Dictionary App preview"
+              className="feature-img"
+            />
+
             <h3>Dictionary App</h3>
             <p className="text-muted">
               Word search experience with definitions, examples, and a polished
@@ -66,6 +77,11 @@ export default function Home() {
           </div>
 
           <div className="feature-card">
+            <img
+              src="/images/poem.png"
+              alt="Poem Generator preview"
+              className="feature-img"
+            />
             <h3>Poem Generator App</h3>
             <p className="text-muted">
               Dynamic poem generator built with React, focusing on conditional

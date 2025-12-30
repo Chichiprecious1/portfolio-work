@@ -8,7 +8,7 @@ export default function Navbar() {
         <img
           src="/images/logo.png"
           className="logo d-none d-md-block"
-          alt="Tshilidzi logo"
+          alt="logo"
         />
         <img
           src="/images/small.jpg"

@@ -12,7 +12,7 @@ export const projects = [
       "Improved UX with loading and error handling",
     ],
     live: "https://your-weather-app.netlify.app",
-    github: "https://github.com/Chichiprecious1/weather-react-app",
+    github: "https://github.com/Chichiprecious1/chichis-weather",
     problem:
       "Users need quick, accurate weather info in a simple interface without clutter.",
     solution:
@@ -29,8 +29,8 @@ export const projects = [
       "Clean typography and spacing for readability",
       "Responsive UI and structured results layout",
     ],
-    live: "https://your-dictionary.netlify.app",
-    github: "https://github.com/Chichiprecious1/dictionary-react",
+    live: "https://tshilidzis-dictionary.netlify.app/",
+    github: "https://github.com/Chichiprecious1/tshilidzis-dictionary",
     problem:
       "People want fast definitions and examples without navigating multiple pages.",
     solution:
@@ -49,7 +49,7 @@ export const projects = [
       "Responsive layout for mobile and desktop",
     ],
     live: "https://your-poem-generator.netlify.app",
-    github: "https://github.com/Chichiprecious1/poem-generator",
+    github: "https://github.com/Chichiprecious1/South-African-poem-generator",
     problem:
       "Many creative tools are overcomplicated and distract from the content itself.",
     solution:
@@ -69,7 +69,7 @@ export const projects = [
       "Clear call-to-action to guide user interaction",
     ],
     live: "https://my-travel-project-maldives.netlify.app",
-    github: "PASTE_GITHUB_LINK_HERE",
+    github: "https://github.com/Chichiprecious1/My-Travel-Project",
     problem:
       "Travel websites need to quickly capture attention while remaining clean and easy to navigate.",
     solution:
