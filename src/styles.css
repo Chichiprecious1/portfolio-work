@@ -1,0 +1,259 @@
+:root {
+  --bg: #ffffff;
+  --text: #111827;
+  --muted: rgba(17, 24, 39, 0.65);
+  --border: rgba(17, 24, 39, 0.1);
+  --shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+  --radius: 16px;
+}
+
+/* Basic polish */
+body {
+  color: var(--text);
+}
+
+h1,
+h2,
+h3 {
+  letter-spacing: -0.02em;
+}
+
+/* Navbar */
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 18px;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--text);
+  opacity: 0.85;
+  font-weight: 500;
+}
+
+.nav-list a.active,
+.nav-list a:hover {
+  opacity: 1;
+  text-decoration: underline;
+  text-underline-offset: 6px;
+}
+
+/* Hero */
+.hero {
+  padding: 80px 0 60px;
+  background: radial-gradient(
+      circle at 10% 10%,
+      rgba(59, 130, 246, 0.1),
+      transparent 40%
+    ),
+    radial-gradient(circle at 90% 20%, rgba(168, 85, 247, 0.1), transparent 45%);
+}
+
+.hero-kicker {
+  color: var(--muted);
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+.hero-title {
+  font-size: clamp(2.2rem, 5vw, 4rem);
+  margin-bottom: 12px;
+}
+
+.hero-subtitle {
+  max-width: 720px;
+  margin: 0 auto 22px;
+  color: var(--muted);
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+.hero-cta {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 22px;
+}
+
+/* Badge pills */
+.hero-badges {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.badge-pill {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: var(--muted);
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(6px);
+}
+
+/* Buttons (matches your branding class names) */
+.btn-branding {
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+.btn-branding-outline {
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-weight: 600;
+}
+
+/* Sections */
+.section-heading h2 {
+  margin-bottom: 8px;
+}
+
+.feature-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 22px;
+}
+
+@media (max-width: 992px) {
+  .feature-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.feature-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  background: var(--bg);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.feature-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.text-link {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Project cards (Work page) */
+.project-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 16px;
+  border: 1px solid var(--border);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: var(--shadow);
+}
+
+.project-bullets {
+  padding-left: 18px;
+  color: var(--muted);
+  margin: 10px 0 14px;
+  font-size: 0.95rem;
+}
+
+/* About page */
+.profile-photo {
+  max-width: 420px;
+  border-radius: 18px;
+  box-shadow: var(--shadow);
+}
+
+.about-highlights {
+  display: grid;
+  gap: 12px;
+  margin-top: 18px;
+}
+
+.highlight {
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 14px;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.highlight strong {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.highlight span {
+  color: var(--muted);
+}
+
+.skills-strip {
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 18px;
+  background: #fff;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.skill {
+  border: 1px solid var(--border);
+  padding: 8px 12px;
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.detail-hero {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 24px;
+  align-items: start;
+  margin-top: 18px;
+}
+
+@media (max-width: 992px) {
+  .detail-hero {
+    grid-template-columns: 1fr;
+  }
+}
+
+.detail-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.detail-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.detail-image-wrap img {
+  border: 1px solid rgba(17, 24, 39, 0.1);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.detail-card {
+  border: 1px solid rgba(17, 24, 39, 0.1);
+  border-radius: 16px;
+  padding: 18px;
+  background: #fff;
+}
