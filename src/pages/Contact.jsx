@@ -6,8 +6,8 @@ export default function Contact() {
       <div className="content text-center">
         <h1 className="mb-3">Let’s get in touch!</h1>
         <p className="text-muted mb-4">
-          Email me directly or reach out on social — I’m open to front-end
-          opportunities.
+          I’m open to junior front-end roles, internships, and freelance
+          opportunities. Feel free to reach out via email or request my resume.
         </p>
 
         <div className="d-flex justify-content-center mb-4">

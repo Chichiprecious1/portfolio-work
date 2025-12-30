@@ -6,17 +6,23 @@ export const projects = [
     image: "/images/weather.png",
     tech: ["React", "JavaScript", "API", "CSS", "Bootstrap"],
     features: [
-      "Search any city and display real-time weather",
-      "Forecast display with a clean, readable layout",
-      "Responsive design for mobile and desktop",
-      "Improved UX with loading and error handling",
+      "City-based real-time weather search",
+      "Multi-day forecast with visual indicators",
+      "Responsive layout for mobile and desktop",
+      " Loading states and basic error handling",
+    ],
+    learned: [
+      "Working with external APIs and handling async data",
+      "Managing loading and error states in React",
+      "Structuring reusable components",
+      "Improving UX for mobile and desktop users",
     ],
     live: "https://your-weather-app.netlify.app",
     github: "https://github.com/Chichiprecious1/chichis-weather",
     problem:
-      "Users need quick, accurate weather info in a simple interface without clutter.",
+      "Users need quick access to accurate weather data without navigating complex or cluttered interfaces, especially on mobile devices.",
     solution:
-      "Built a responsive React app that fetches weather data from an external API and displays it clearly with strong UX.",
+      "I built a responsive React application that fetches real-time weather data from an external API and presents it in a clean, readable layout optimized for both desktop and mobile users.",
   },
   {
     slug: "dictionary-app",

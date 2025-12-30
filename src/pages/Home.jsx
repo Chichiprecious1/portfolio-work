@@ -71,7 +71,7 @@ export default function Home() {
               Word search experience with definitions, examples, and a polished
               UI.
             </p>
-            <Link to="/work" className="text-link">
+            <Link to="/work/dictionary-app" className="text-link">
               See project details →
             </Link>
           </div>
@@ -87,7 +87,7 @@ export default function Home() {
               Dynamic poem generator built with React, focusing on conditional
               logic, string manipulation, and responsive UI.
             </p>
-            <Link to="/work" className="text-link">
+            <Link to="/work/poem-generator" className="text-link">
               See project details →
             </Link>
           </div>

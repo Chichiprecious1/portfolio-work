@@ -23,6 +23,7 @@ export default function ProjectDetail() {
         ← Back to Projects
       </Link>
 
+      {/* Hero */}
       <div className="detail-hero mt-3">
         <div>
           <h1 className="mb-2">{project.title}</h1>
@@ -37,22 +38,27 @@ export default function ProjectDetail() {
           </div>
 
           <div className="detail-actions mt-4">
-            <a
-              href={project.live}
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-branding"
-            >
-              Live Demo
-            </a>
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noreferrer"
-              className="btn btn-branding-outline"
-            >
-              View Code
-            </a>
+            {project.live && (
+              <a
+                href={project.live}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-branding"
+              >
+                Live Demo
+              </a>
+            )}
+
+            {project.github && (
+              <a
+                href={project.github}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-branding-outline"
+              >
+                View Code
+              </a>
+            )}
           </div>
         </div>
 
@@ -65,7 +71,9 @@ export default function ProjectDetail() {
         </div>
       </div>
 
+      {/* Content */}
       <div className="row mt-5 g-4">
+        {/* Problem */}
         <div className="col-lg-6">
           <div className="detail-card">
             <h3 className="mb-2">Problem</h3>
@@ -73,6 +81,7 @@ export default function ProjectDetail() {
           </div>
         </div>
 
+        {/* Solution */}
         <div className="col-lg-6">
           <div className="detail-card">
             <h3 className="mb-2">Solution</h3>
@@ -80,6 +89,7 @@ export default function ProjectDetail() {
           </div>
         </div>
 
+        {/* Key Features */}
         <div className="col-12">
           <div className="detail-card">
             <h3 className="mb-3">Key Features</h3>
@@ -90,6 +100,20 @@ export default function ProjectDetail() {
             </ul>
           </div>
         </div>
+
+        {/* What I Learned */}
+        {project.learned && (
+          <div className="col-12">
+            <div className="detail-card">
+              <h3 className="mb-3">What I Learned</h3>
+              <ul className="project-bullets mb-0">
+                {project.learned.map((item, i) => (
+                  <li key={i}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
